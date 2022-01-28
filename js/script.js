@@ -26,7 +26,6 @@ innerWrapper.appendChild(imgCard).src = "/images/image-equilibrium.jpg";
 imgCard.style.width = "90%";
 imgCard.style.paddingLeft = "20px";
 imgCard.style.paddingTop = "20px";
-imgCard.style.alignItems = "center";
 imgCard.style.marginRight = "auto";
 imgCard.style.marginBottom = "20px";
 
@@ -59,7 +58,7 @@ sum.style.marginLeft = "20px";
 
 const imgIcon = document.createElement("img");
 current.appendChild(imgIcon).src = "/images/icon-ethereum.svg";
-imgIcon.style.marginRight = "20px";
+imgIcon.style.marginRight = "10px";
 
 const subparagraph = document.createElement("p");
 subparagraph.innerText = " 0.041 ETH";
@@ -71,11 +70,12 @@ subparagraph.style.display = "inline-block";
 const counter = document.createElement("div");
 sum.appendChild(counter);
 counter.style.display = "flex";
-counter.style.alignItems = "center";
 
 const imgIcon2 = document.createElement("img");
 counter.appendChild(imgIcon2).src = "/images/icon-clock.svg";
 imgIcon2.style.marginRight = "10px";
+imgIcon2.style.maxWidth = "20px";
+imgIcon2.style.objectFit = "contain";
 
 const subparagraph2 = document.createElement("p");
 subparagraph2.innerText = "3 days left";

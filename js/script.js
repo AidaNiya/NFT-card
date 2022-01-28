@@ -9,7 +9,6 @@ document.body.appendChild(wrapper);
 wrapper.style.margin = "0 auto";
 wrapper.style.maxWidth = "1440px";
 wrapper.style.marginTop = "100px";
-wrapper.style.justifyContent = "center";
 
 //Обертка
 const innerWrapper = document.createElement("div");
@@ -26,7 +25,6 @@ innerWrapper.appendChild(imgCard).src = "/images/image-equilibrium.jpg";
 imgCard.style.width = "90%";
 imgCard.style.paddingLeft = "20px";
 imgCard.style.paddingTop = "20px";
-imgCard.style.marginRight = "auto";
 imgCard.style.marginBottom = "20px";
 
 //Заголовок

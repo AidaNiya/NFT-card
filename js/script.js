@@ -105,3 +105,5 @@ secondPart.innerText = " Jules Wyvern";
 innerWrapper.appendChild(secondPart);
 secondPart.style.color = "white";
 secondPart.style.paddingLeft = "5px";
+
+alert("Я оцениваю свою работу на 90 баллов");
